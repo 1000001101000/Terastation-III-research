@@ -4,12 +4,7 @@ kernel_ver="4.9"
 
 ##run as root/sudo
 apt-get update
-dpkg -l linux-source-$kernel_ver >/dev/null 2>&1
-if [ $? -ne 0 ]; then
-   apt-get install linux-source-$kernel_ver
-else
-  apt-get upgrade linux-source-$kernel_ver
-fi
+apt-get install linux-source-$kernel_ver
 
 rm -r linux-source-$kernel_ver/
 tar xf /usr/src/linux-source-$kernel_ver.tar.xz

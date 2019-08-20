@@ -150,8 +150,9 @@ if [ $? -ne 0 ]; then
 fi
 mv uImage.buffalo output/
 
-zip output/$distro-installer-files.zip output/*.buffalo
-
+cd output
+zip $distro-installer-files.zip *.buffalo
+cd ..
 rm installer-initrd.img
 rm initrd.gz
 rm payload/source/*.deb

@@ -12,6 +12,11 @@ tar xf /usr/src/linux-source-$kernel_ver.tar.xz
 user="$(ls -la . | grep -e ^d | head -n 1 | gawk '{print $3}')"
 group="$(ls -la . | grep -e ^d | head -n 1 | gawk '{print $4}')"
 
-chown -R $user:$group linux-source-$kernel_ver
+cd linux-source-$kernel_ver
+for patch in $(ls ../patches)
+do
+  patch -p1 < ../patches/$patch
+done
+cd ..
 
-##apply patches
+chown -R $user:$group linux-source-$kernel_ver

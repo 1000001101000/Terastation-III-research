@@ -2,3 +2,4 @@ linux-source-*
 *.deb
 *.changes
 vanilla*
+*.buffalo

@@ -2,10 +2,12 @@
 
 Tools for installing modern Debian on Terastation III (TS-WXL, TS-XL, TS-RXL) devices.
 
-
 Everything here is experimental and will likely change greatly as we move forward. 
 
-Currently the only device working acceptably is the 2-bay TS-WXL, sata is not yet working for the other models
+The kernel/installer images have been tested on the TS-WXL and TS-XL, and TS-RXL.
 
-These devices are more strict about their partition scheme than other devices, so far I’ve only been successful using the /boot created by buffalo’s firmware, even reformating it with the same fs (ext3) seems to cause uboot to regect it.
+details for setting up a boot partition can be found at (or the stock firmware's partitions a can be re-used):
+https://buffalonas.miraheze.org/wiki/Terastation_TS-XL
+
+more detailed instructions will be posted when things progress a bit farther.
 

@@ -1,0 +1,40 @@
+Package: linux-headers-4.9.168
+Source: linux-4.9.168
+Version: 4.9.168-3
+Architecture: armel
+Maintainer: Anonymous <root@earth>
+Installed-Size: 73100
+Provides: linux-headers, linux-headers-2.6
+Filename: ./linux-headers-4.9.168_4.9.168-3_armel.deb
+Size: 10727128
+MD5sum: 66346b614c508199fb9c2e65e376d94b
+SHA1: 7e70bdbf7da5ff1ec39d94eba47c4cbccaae9fe6
+SHA256: e7bc7aaeae35de25c44f1cf3eb018348d68bb6722cce78982622780f213b9fff
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 4.9.168 on armel
+ This package provides kernel header files for 4.9.168 on armel
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.9.168
+Source: linux-4.9.168
+Version: 4.9.168-3
+Architecture: armel
+Maintainer: Anonymous <root@earth>
+Installed-Size: 91642
+Suggests: linux-firmware-image-4.9.168
+Provides: linux-image, linux-image-2.6, linux-modules-4.9.168
+Filename: ./linux-image-4.9.168_4.9.168-3_armel.deb
+Size: 21833224
+MD5sum: 54352db1afaef7580b2f97a26681453a
+SHA1: eea37aeb6939349431a0ad70614adade3b423f3e
+SHA256: f03be5ee3478437be5fc251b8af4604f046000ef5335da7d910aea5a0e28e673
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 4.9.168
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.9.168.
+

@@ -18,6 +18,26 @@ Description: Linux kernel headers for 4.9.168 on armel
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-4.9.189
+Source: linux-4.9.189
+Version: 4.9.189-1
+Architecture: armel
+Maintainer: Anonymous <root@earth>
+Installed-Size: 73125
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.9.189/linux-headers-4.9.189_4.9.189-1_armel.deb
+Size: 10728058
+SHA256: 0bc0c0b80338f1c3eb12e8d4dad374fa97ff1b6e7a313ea18d6156a85d70fb75
+SHA1: 2f620ab4bed0fddb94f925007638bbc70f61d185
+MD5sum: f330c21ad16635e28e7e065d33f70086
+Description: Linux kernel headers for 4.9.189 on armel
+ This package provides kernel header files for 4.9.189 on armel
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.9.168
 Source: linux-4.9.168
 Version: 4.9.168-3
@@ -38,19 +58,39 @@ Description: Linux kernel, version 4.9.168
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.9.168.
 
+Package: linux-image-4.9.189
+Source: linux-4.9.189
+Version: 4.9.189-1
+Architecture: armel
+Maintainer: Anonymous <root@earth>
+Installed-Size: 91682
+Suggests: linux-firmware-image-4.9.189
+Provides: linux-image, linux-image-2.6, linux-modules-4.9.189
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.9.189/linux-image-4.9.189_4.9.189-1_armel.deb
+Size: 21843156
+SHA256: c047da02de467fc6f11e266bab8871373cb17b6a832b1cefde2745b2f1e67d32
+SHA1: 9b12ab28a931f8f460ef3a4d44f8db702bd8ad74
+MD5sum: e91f262e2b2b04979abd6a23c81cebcc
+Description: Linux kernel, version 4.9.189
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.9.189.
+
 Package: linux-image-tsxl
-Version: 1.1
+Version: 1.2
 Architecture: armel
 Maintainer: Jeremy J. Peper <jeremy@earth>
 Installed-Size: 9
-Depends: linux-image-4.9.168
+Depends: linux-image-4.9.189
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-tsxl/linux-image-tsxl_1.1_armel.deb
-Size: 2072
-SHA256: d137592483320cd373f79ef3335399ae75bfbbef67863a05271bf682981285ac
-SHA1: 4c90d28e10ae58197009526e5418c4ab3a8c24c7
-MD5sum: 46e9507f666760bfa816244253f50c76
+Filename: pool/main/l/linux-image-tsxl/linux-image-tsxl_1.2_armel.deb
+Size: 2074
+SHA256: 5644cbc191a129b1175d7874b90269cb22f52e0c29906955da0db5ed505349cb
+SHA1: 04466d7c688967980c52c8fc357b9718e7cb7f66
+MD5sum: 978fd78e597147908fdfd2241e117e8d
 Description: linux-image metapackage for custom Terastation III kernels
 

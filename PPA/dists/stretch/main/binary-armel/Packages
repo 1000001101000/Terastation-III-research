@@ -38,3 +38,19 @@ Description: Linux kernel, version 4.9.168
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.9.168.
 
+Package: linux-image-tsxl
+Version: 1.1
+Architecture: armel
+Maintainer: Jeremy J. Peper <jeremy@earth>
+Installed-Size: 9
+Depends: linux-image-4.9.168
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-tsxl/linux-image-tsxl_1.1_armel.deb
+Size: 2072
+SHA256: d137592483320cd373f79ef3335399ae75bfbbef67863a05271bf682981285ac
+SHA1: 4c90d28e10ae58197009526e5418c4ab3a8c24c7
+MD5sum: 46e9507f666760bfa816244253f50c76
+Description: linux-image metapackage for custom Terastation III kernels
+

@@ -79,7 +79,7 @@ Description: Linux kernel, version 4.9.189
  files, version: 4.9.189.
 
 Package: linux-image-tsxl
-Version: 1.2
+Version: 4.9-0
 Architecture: armel
 Maintainer: Jeremy J. Peper <jeremy@earth>
 Installed-Size: 9
@@ -87,10 +87,10 @@ Depends: linux-image-4.9.189
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-tsxl/linux-image-tsxl_1.2_armel.deb
-Size: 2074
-SHA256: 5644cbc191a129b1175d7874b90269cb22f52e0c29906955da0db5ed505349cb
-SHA1: 04466d7c688967980c52c8fc357b9718e7cb7f66
-MD5sum: 978fd78e597147908fdfd2241e117e8d
+Filename: pool/main/l/linux-image-tsxl/linux-image-tsxl_4.9-0_armel.deb
+Size: 2076
+SHA256: 024fd6685006b8d95a63e972d2560edc244989fb2b5c04aa2840e3dee4efe859
+SHA1: fc8d265d39b0cc75227dc93dbaa2c563d5253965
+MD5sum: 195b61343d6c22760f159d35d94315ba
 Description: linux-image metapackage for custom Terastation III kernels
 

@@ -1,0 +1,54 @@
+Package: linux-headers-4.12.13
+Source: linux-4.12.13
+Version: 4.12.13-1
+Architecture: armel
+Maintainer: Anonymous <root@earth>
+Installed-Size: 74323
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.12.13/linux-headers-4.12.13_4.12.13-1_armel.deb
+Size: 10928418
+SHA256: 2be78dc253e1a9db52e7deed4d02cba5e882a922333fcec65c3ea936e1f6e120
+SHA1: d2ccaabdd91c6a02cd02e4df4a188e296e96706e
+MD5sum: d81488199aa28fc4e2df8146920068e5
+Description: Linux kernel headers for 4.12.13 on armel
+ This package provides kernel header files for 4.12.13 on armel
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-4.12.13
+Source: linux-4.12.13
+Version: 4.12.13-1
+Architecture: armel
+Maintainer: Anonymous <root@earth>
+Installed-Size: 93455
+Suggests: linux-firmware-image-4.12.13
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.12.13/linux-image-4.12.13_4.12.13-1_armel.deb
+Size: 22321450
+SHA256: 6a8a5939467db34767b4278e8dd695c19ff113117709372b1f08596514e5abde
+SHA1: 9ab498d0e61ee9fcda7b34bbaf68345eaf44ed62
+MD5sum: d0283c86e53bf07226a98f482a9a4809
+Description: Linux kernel, version 4.12.13
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.12.13.
+
+Package: linux-image-tsxl
+Version: 4.12-0
+Architecture: armel
+Maintainer: Jeremy J. Peper <jeremy@earth>
+Installed-Size: 9
+Depends: linux-image-4.12.13
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-tsxl/linux-image-tsxl_4.12-0_armel.deb
+Size: 2078
+SHA256: d6268ddcf11c01cee5d535e2be9a069eafaa2cefd1812422b6e081bd7e1d543e
+SHA1: adb697e25d1f6b5dbbbdb0e636b8fb5124e5c975
+MD5sum: 9d85bb539b1d10d544ea593bc745d6c7
+Description: linux-image metapackage for custom Terastation III kernels
+

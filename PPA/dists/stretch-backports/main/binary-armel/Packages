@@ -36,6 +36,25 @@ Description: Linux kernel headers for 4.19.67 on armel
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.2.9
+Source: linux-5.2.9
+Version: 5.2.9-1
+Architecture: armel
+Maintainer: jeremy <jeremy@earth>
+Installed-Size: 73331
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.2.9/linux-headers-5.2.9_5.2.9-1_armel.deb
+Size: 11323708
+SHA256: a071184f5febd6ea58c9d281b8b5d73a08683c5f60337cc39c0f8a32d29baacf
+SHA1: 2e9255d68546f232ba8bf31a0def783dd5f7456e
+MD5sum: eacad8584795da3ac88de3eeba7ecfcc
+Description: Linux kernel headers for 5.2.9 on armel
+ This package provides kernel header files for 5.2.9 on armel
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.12.13
 Source: linux-4.12.13
 Version: 4.12.13-1
@@ -72,6 +91,24 @@ MD5sum: 6106fa7914ebea769f39321d90cc6593
 Description: Linux kernel, version 4.19.67
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.19.67.
+
+Package: linux-image-5.2.9
+Source: linux-5.2.9
+Version: 5.2.9-1
+Architecture: armel
+Maintainer: jeremy <jeremy@earth>
+Installed-Size: 101806
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.2.9/linux-image-5.2.9_5.2.9-1_armel.deb
+Size: 24126164
+SHA256: 33c33b336bc56edb00b8fc310e85b41bd59467f42b6a1b3a70246b6b36b4fe56
+SHA1: 109c68c33bc25aaa8c32cd9a5846e842cdddc9e5
+MD5sum: 9c5c4f570d5986b8a209ba3621f5c6b2
+Description: Linux kernel, version 5.2.9
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.2.9.
 
 Package: linux-image-tswxl
 Version: 4.19-0

@@ -20,19 +20,19 @@ Description: Linux kernel headers for 4.9.168 on armel
 
 Package: linux-headers-4.9.189
 Source: linux-4.9.189
-Version: 4.9.189-1
+Version: 4.9.189-5
 Architecture: armel
 Maintainer: Anonymous <root@earth>
-Installed-Size: 73125
+Installed-Size: 73130
 Provides: linux-headers, linux-headers-2.6
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-4.9.189/linux-headers-4.9.189_4.9.189-1_armel.deb
-Size: 10728058
-SHA256: 0bc0c0b80338f1c3eb12e8d4dad374fa97ff1b6e7a313ea18d6156a85d70fb75
-SHA1: 2f620ab4bed0fddb94f925007638bbc70f61d185
-MD5sum: f330c21ad16635e28e7e065d33f70086
+Filename: pool/main/l/linux-4.9.189/linux-headers-4.9.189_4.9.189-5_armel.deb
+Size: 10728114
+SHA256: 5161d12080d38fca34e6f11f673ceb52e7c6021b7ca3958d17ec074bd455a1c4
+SHA1: baadad70af6f2bca2fc9d56841039b0dea67ba52
+MD5sum: 4b971d20db4c2e5335b0da51b479e7d1
 Description: Linux kernel headers for 4.9.189 on armel
  This package provides kernel header files for 4.9.189 on armel
  .
@@ -60,20 +60,20 @@ Description: Linux kernel, version 4.9.168
 
 Package: linux-image-4.9.189
 Source: linux-4.9.189
-Version: 4.9.189-1
+Version: 4.9.189-5
 Architecture: armel
 Maintainer: Anonymous <root@earth>
-Installed-Size: 91682
+Installed-Size: 91689
 Suggests: linux-firmware-image-4.9.189
 Provides: linux-image, linux-image-2.6, linux-modules-4.9.189
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-4.9.189/linux-image-4.9.189_4.9.189-1_armel.deb
-Size: 21843156
-SHA256: c047da02de467fc6f11e266bab8871373cb17b6a832b1cefde2745b2f1e67d32
-SHA1: 9b12ab28a931f8f460ef3a4d44f8db702bd8ad74
-MD5sum: e91f262e2b2b04979abd6a23c81cebcc
+Filename: pool/main/l/linux-4.9.189/linux-image-4.9.189_4.9.189-5_armel.deb
+Size: 21843160
+SHA256: 3648e923357bf62b6784cf59835eb7af345b5d8fc44e75ac47e64d4b6f7e4a7f
+SHA1: 2a68dee2937eed1eeba9e7a6a5f446253f85fcfe
+MD5sum: e9ae4a46108acda8a481337c22f1d2e6
 Description: Linux kernel, version 4.9.189
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.9.189.

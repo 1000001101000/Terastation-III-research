@@ -2,12 +2,7 @@
 
 Tools for installing modern Debian on Terastation III (TS-WXL, TS-XL, TS-RXL) devices.
 
-Everything here is experimental and will likely change greatly as we move forward. 
+Terastation III support is now part of the armel installer of the main project:
+https://github.com/1000001101000/Debian_on_Buffalo
 
-The kernel/installer images have been tested on the TS-WXL and TS-XL, and TS-RXL.
-
-details for setting up a boot partition can be found at (or the stock firmware's partitions a can be re-used):
-https://buffalonas.miraheze.org/wiki/Terastation_TS-XL
-
-more detailed instructions will be posted when things progress a bit farther.
-
+I may still use this project for hosting experimental kernels/patches not ready for the main project from time to time. 

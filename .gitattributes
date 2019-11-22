@@ -1,0 +1,4 @@
+$ cat .gitattributes
+linux-image-* linguist-documentation
+custom-config-* linguist-documentation
+*.cfg linguist-documentation
